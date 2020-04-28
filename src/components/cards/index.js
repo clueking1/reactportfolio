@@ -1,12 +1,13 @@
 import React from 'react'
 import './style.css'
 
-function Cards() {
+function Cards(props) {
+    console.log(props)
 
     return(
         <div className="cards-list">
   
-<div className="card 1">
+<div className="card 1" >
   <div className="card_image"> <img src="https://media.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif" /> </div>
   <div className="card_title title-white">
     <p>Projects</p>
@@ -24,7 +25,7 @@ function Cards() {
 
 <div className="card 3">
   <div className="card_image">
-    <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" />
+    <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" onClick={() => props.aboutDiv()}/>
   </div>
   <div className="card_title title-blac">
     <p>About Me</p>
