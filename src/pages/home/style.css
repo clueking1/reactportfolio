@@ -6,17 +6,12 @@ html, body {
     height: 100%;
 }
 
-.navigate {
-    z-index: 1;
-}
-
 .mainHome {
     height: 100%;
-    background-image: url('./imgs/home2.png');
+    background-image: url('./imgs/home4.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: rgba(39, 66, 66, 0.671);
-
+    background-color: rgba(31, 37, 37, 0.671);
 }
