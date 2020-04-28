@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../../components/navBar'
+import Cards from '../../components/cards'
 import './style.css'
 
 function Home() {
@@ -9,8 +10,9 @@ function Home() {
             <div className="navigate">
                 <NavBar />
             </div>
-            <div className="mainHome">
-                
+            
+            <div className="allCards">
+                <Cards />
             </div>
         </div>
     )

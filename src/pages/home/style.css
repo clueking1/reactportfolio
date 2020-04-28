@@ -4,14 +4,17 @@ html, body {
 
 .home {
     height: 100%;
-}
-
-.mainHome {
-    height: 100%;
-    background-image: url('./imgs/home4.png');
+    background-image: url('./imgs/home4.png') ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
     background-color: rgba(31, 37, 37, 0.671);
 }
+
+@media only screen and (max-width: 450px) {
+    .allCards {
+       margin-top: -23%;
+      }
+  }
