@@ -20,3 +20,19 @@
 .thumbs-wrapper {
     display: none;
 }
+
+.gitBut {
+    position: absolute;
+    bottom: 0;
+    margin-left: -400px;
+    width: 200px;
+    padding: 20px;
+}
+
+.webBut {
+    position: absolute;
+    bottom: 0;
+    margin-left: -200px;
+    width: 200px;
+    padding: 20px;
+}

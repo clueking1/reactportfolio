@@ -13,15 +13,57 @@ const Projects = () => {
         <Carousel>
                 <div>
                     <img src={require('./websitepics/Penny.jpg')} />
-                    <p className="legend">Legend 1</p>
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
                 </div>
                 <div>
-                    <img src={require('./websitepics/Penny.jpg')} />
-                    <p className="legend">Legend 2</p>
+                    <img src={require('./websitepics/Planner.jpg')} />
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
                 </div>
                 <div>
-                    <img src={require('./websitepics/Penny.jpg')} />
-                    <p className="legend">Legend 3</p>
+                    <img src={require('./websitepics/Pw.jpg')} />
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
+                </div>
+                <div>
+                    <img src={require('./websitepics/WeatherDash.jpg')} />
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
+                </div>
+                <div>
+                    <img src={require('./websitepics/Zodiac.jpg')} />
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
+                </div>
+                <div>
+                    <img src={require('./websitepics/Quiz.jpg')} />
+                    <button className="gitBut">
+                        <a href="/">Github</a>
+                    </button>
+                    <button className="webBut">
+                        <a href="/">Website</a>
+                    </button>
                 </div>
             </Carousel>
     </div>
