@@ -1,0 +1,22 @@
+.slider-wrapper {
+    height: 400px;
+}
+
+.carousel .slide img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+.carousel .slide {
+    background-color: rgba(209, 171, 100, 0.253);;
+}
+
+.control-dots {
+    display: none;
+}
+
+.thumbs-wrapper {
+    display: none;
+}

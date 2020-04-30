@@ -6,15 +6,18 @@ import Projects from '../../components/projectCara'
 import './style.css'
 
 function Home() {
+    const [uni, setUni] = useState(true)
     const [about, setAbout] = useState(false)
     const [proj, setProj] = useState(false)
 
     function aboutDiv() {
         setAbout(!about)
+        setUni(!uni)
     }
 
     function projDiv() {
        setProj(!proj)
+       setUni(!uni)
     }
 
     return(
@@ -28,6 +31,8 @@ function Home() {
             <div className="projectWrapper">
                 {proj ? <Projects /> : undefined}
             </div>
+            {uni ? <div className="emptyWrapper"></div> : undefined}
+            
             
             <div className="allCards">
                 <Cards aboutDiv={aboutDiv} projDiv={projDiv} />

@@ -14,6 +14,20 @@ html, body {
 }
 
 .aboutWrapper {
+   
+    height: 400px
+}
+
+.projectWrapper {
+
+    top: 0;
+    margin-top: -400px;
+    margin-bottom: 0;
+}
+
+.emptyWrapper {
+
+    top: 0;
     height: 400px
 }
 
