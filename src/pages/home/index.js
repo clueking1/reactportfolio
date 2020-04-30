@@ -9,6 +9,26 @@ function Home() {
     const [uni, setUni] = useState(true)
     const [about, setAbout] = useState(false)
     const [proj, setProj] = useState(false)
+    const [cardOne, setCardOne] = useState(true)
+    const [cardTwo, setCardTwo] = useState(true)
+    const [cardThree, setCardThree] = useState(true)
+
+    const card1Re = document.querySelector('.one')
+
+    function card1 () {
+        setCardTwo(!cardTwo)
+        setCardThree(!cardThree)
+    }
+
+    function card2 () {
+        setCardOne(!cardOne)
+        setCardThree(!cardThree)
+    }
+
+    function card3 () {
+        setCardTwo(!cardTwo)
+        setCardOne(!cardOne)
+    }
 
     function aboutDiv() {
         setAbout(!about)
@@ -18,6 +38,7 @@ function Home() {
     function projDiv() {
        setProj(!proj)
        setUni(!uni)
+       
     }
 
     return(
@@ -35,7 +56,7 @@ function Home() {
             
             
             <div className="allCards">
-                <Cards aboutDiv={aboutDiv} projDiv={projDiv} />
+                <Cards uni={uni} aboutDiv={aboutDiv} projDiv={projDiv} card1 = {card1} card2 = {card2} card3 = {card3}cardOne = {cardOne} cardTwo = {cardTwo} cardThree = {cardThree} />
             </div>
         </div>
     )
