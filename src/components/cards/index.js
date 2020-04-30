@@ -2,13 +2,12 @@ import React from 'react'
 import './style.css'
 
 function Cards(props) {
-    console.log(props)
-
+ 
     return(
         <div className="cards-list">
   
 <div className="card 1" >
-  <div className="card_image"> <img src="https://media.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif" /> </div>
+  <div className="card_image"> <img src="https://media.giphy.com/media/xT0Gqn9yuw8hnPGn5K/giphy.gif" onClick={() => props.projDiv()}/> </div>
   <div className="card_title title-white">
     <p>Projects</p>
   </div>
