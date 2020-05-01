@@ -3,6 +3,7 @@ import NavBar from '../../components/navBar'
 import Cards from '../../components/cards'
 import About from '../../components/aboutMe'
 import Projects from '../../components/projectCara'
+import ContactCard from '../../components/contactCard'
 import './style.css'
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
     const [uni2, setUni2] = useState(false)
     const [about, setAbout] = useState(false)
     const [proj, setProj] = useState(false)
+    const [con, setCon] = useState(false)
     const [cardOne, setCardOne] = useState(true)
     const [cardTwo, setCardTwo] = useState(true)
     const [cardThree, setCardThree] = useState(true)
@@ -44,6 +46,8 @@ function Home() {
     }
 
     function contactDiv() {
+        setCon(!con)
+        setUni(!uni)
         card2()
     }
 
@@ -57,6 +61,9 @@ function Home() {
             </div>
             <div className="projectWrapper">
                 {proj ? <Projects /> : undefined}
+            </div>
+            <div className="contactWrapper">
+                {con ? <ContactCard /> : undefined}
             </div>
             {uni ? <div className="emptyWrapper"></div> : undefined}
             {uni2 ? <div className="emptyWrapper"></div> : undefined}

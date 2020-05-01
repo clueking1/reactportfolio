@@ -1,0 +1,17 @@
+.card img {
+    height: 250px;
+    width: 278px;
+    border-radius:19% ;
+}
+
+.card {
+
+    height: 380px;
+}
+
+.card-group {
+    width: 280px;
+    text-align: center;
+    margin: 0 auto;
+    height: 400px;
+}
