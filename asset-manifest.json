@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ereactportgolio/static/css/main.16e08c4e.chunk.css",
+    "main.css": "/ereactportgolio/static/css/main.1d87c701.chunk.css",
     "main.js": "/ereactportgolio/static/js/main.38927746.chunk.js",
     "main.js.map": "/ereactportgolio/static/js/main.38927746.chunk.js.map",
     "runtime-main.js": "/ereactportgolio/static/js/runtime-main.34bf7971.js",
@@ -9,10 +9,10 @@
     "static/js/2.d4647551.chunk.js": "/ereactportgolio/static/js/2.d4647551.chunk.js",
     "static/js/2.d4647551.chunk.js.map": "/ereactportgolio/static/js/2.d4647551.chunk.js.map",
     "index.html": "/ereactportgolio/index.html",
-    "precache-manifest.4dfce3a53b35100ecafd7b0efa1bbaa5.js": "/ereactportgolio/precache-manifest.4dfce3a53b35100ecafd7b0efa1bbaa5.js",
+    "precache-manifest.8943000a6baf14f3d350883b50d76e04.js": "/ereactportgolio/precache-manifest.8943000a6baf14f3d350883b50d76e04.js",
     "service-worker.js": "/ereactportgolio/service-worker.js",
     "static/css/2.b0a38356.chunk.css.map": "/ereactportgolio/static/css/2.b0a38356.chunk.css.map",
-    "static/css/main.16e08c4e.chunk.css.map": "/ereactportgolio/static/css/main.16e08c4e.chunk.css.map",
+    "static/css/main.1d87c701.chunk.css.map": "/ereactportgolio/static/css/main.1d87c701.chunk.css.map",
     "static/js/2.d4647551.chunk.js.LICENSE.txt": "/ereactportgolio/static/js/2.d4647551.chunk.js.LICENSE.txt",
     "static/media/Penny.jpg": "/ereactportgolio/static/media/Penny.dbee313f.jpg",
     "static/media/Planner.jpg": "/ereactportgolio/static/media/Planner.ba6c08ee.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.34bf7971.js",
     "static/css/2.b0a38356.chunk.css",
     "static/js/2.d4647551.chunk.js",
-    "static/css/main.16e08c4e.chunk.css",
+    "static/css/main.1d87c701.chunk.css",
     "static/js/main.38927746.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ereactportgolio/precache-manifest.4dfce3a53b35100ecafd7b0efa1bbaa5.js"
+  "/ereactportgolio/precache-manifest.8943000a6baf14f3d350883b50d76e04.js"
 );
 
 self.addEventListener('message', (event) => {
