@@ -9,7 +9,7 @@ function ContactCard(){
   return (
     <CardGroup>
       <Card>
-        <CardImg top width="100%" src={require('./smile.jpeg')} alt="Card image cap" />
+        <CardImg src={require('./smile.jpeg')} alt="Card image cap" />
         <CardBody>
         <CardSubtitle>Will Coan</CardSubtitle>
         <CardSubtitle>Full Stack Developer</CardSubtitle>

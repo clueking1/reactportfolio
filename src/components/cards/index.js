@@ -1,38 +1,53 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './style.css'
 
 function Cards(props) {
     const [showBut, setShowBut] = useState({height:'300px'})
    const card1 = document.querySelector('.hey')
-    // const [cardOne, setCardOne] = useState(true)
-    // const [cardTwo, setCardTwo] = useState(true)
-    // const [cardThree, setCardThree] = useState(true)
-
-    // if (!props.cardTwo && !props.cardThree) {
-    //   card1.style.height = '100px'
-    // } 
-
-    // if (props.uni) {
-    //   card1.style.height = '300px'
-    // }
-
+   
+   
     function toggle1() {
+      let w = window.innerWidth;
+      if (w > 499) {
       let whichHeight = showBut.height === '300px' ? '100px' : '300px'
       setShowBut({height: whichHeight})
+      } else {
+        let whichHeight = showBut.height === '100px' ? '50px' : '100px'
+        setShowBut({height: whichHeight})
+      }
       props.projDiv()
     }
 
     function toggle2() {
-      let whichHeight = showBut.height === '300px' ? '100px' : '300px'
-      setShowBut({height: whichHeight})
+      let w = window.innerWidth;
+      if (w > 499) {
+        let whichHeight = showBut.height === '300px' ? '100px' : '300px'
+        setShowBut({height: whichHeight})
+        } else {
+          let whichHeight = showBut.height === '100px' ? '50px' : '100px'
+          setShowBut({height: whichHeight})
+        }
       props.contactDiv()
     }
 
     function toggle3() {
-      let whichHeight = showBut.height === '300px' ? '100px' : '300px'
-      setShowBut({height: whichHeight})
+      let w = window.innerWidth;
+      if (w > 499) {
+        let whichHeight = showBut.height === '300px' ? '100px' : '300px'
+        setShowBut({height: whichHeight})
+        } else {
+          let whichHeight = showBut.height === '100px' ? '50px' : '100px'
+          setShowBut({height: whichHeight})
+        }
       props.aboutDiv()
     }
+
+    useEffect(() => {
+       let w = window.innerWidth;
+      if (w <= 499) {
+        setShowBut({height: '100px'})
+      }
+    }, [])
 
     return(
         <div className="cards-list">
