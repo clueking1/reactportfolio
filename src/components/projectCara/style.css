@@ -60,4 +60,23 @@
         margin: 0 auto;
     
     }
+
+    .webBut {
+        position: absolute;
+        bottom: 0;
+        margin-left: -150px;
+        width: 150px;
+        padding: 15px;
+    }
+
+    .gitBut {
+        position: absolute;
+        bottom: 0;
+        margin-left: -300px;
+        width: 150px;
+        padding: 15px;
+    }
+    .slider-wrapper {
+        height: 350px;
+    }
   }
