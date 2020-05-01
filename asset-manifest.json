@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reactportfolio/static/css/main.967c0e82.chunk.css",
-    "main.js": "/reactportfolio/static/js/main.38927746.chunk.js",
-    "main.js.map": "/reactportfolio/static/js/main.38927746.chunk.js.map",
+    "main.css": "/reactportfolio/static/css/main.0fb6e35e.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.3ff87861.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.3ff87861.chunk.js.map",
     "runtime-main.js": "/reactportfolio/static/js/runtime-main.c66c6b87.js",
     "runtime-main.js.map": "/reactportfolio/static/js/runtime-main.c66c6b87.js.map",
     "static/css/2.b0a38356.chunk.css": "/reactportfolio/static/css/2.b0a38356.chunk.css",
-    "static/js/2.d4647551.chunk.js": "/reactportfolio/static/js/2.d4647551.chunk.js",
-    "static/js/2.d4647551.chunk.js.map": "/reactportfolio/static/js/2.d4647551.chunk.js.map",
+    "static/js/2.026a9de1.chunk.js": "/reactportfolio/static/js/2.026a9de1.chunk.js",
+    "static/js/2.026a9de1.chunk.js.map": "/reactportfolio/static/js/2.026a9de1.chunk.js.map",
     "index.html": "/reactportfolio/index.html",
-    "precache-manifest.f5ea12a481efd1431d43619cb2dec08c.js": "/reactportfolio/precache-manifest.f5ea12a481efd1431d43619cb2dec08c.js",
+    "precache-manifest.1942d87e1fdf7e8ce38d8c9c6dde7b8b.js": "/reactportfolio/precache-manifest.1942d87e1fdf7e8ce38d8c9c6dde7b8b.js",
     "service-worker.js": "/reactportfolio/service-worker.js",
     "static/css/2.b0a38356.chunk.css.map": "/reactportfolio/static/css/2.b0a38356.chunk.css.map",
-    "static/css/main.967c0e82.chunk.css.map": "/reactportfolio/static/css/main.967c0e82.chunk.css.map",
-    "static/js/2.d4647551.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.d4647551.chunk.js.LICENSE.txt",
+    "static/css/main.0fb6e35e.chunk.css.map": "/reactportfolio/static/css/main.0fb6e35e.chunk.css.map",
+    "static/js/2.026a9de1.chunk.js.LICENSE.txt": "/reactportfolio/static/js/2.026a9de1.chunk.js.LICENSE.txt",
     "static/media/Penny.jpg": "/reactportfolio/static/media/Penny.dbee313f.jpg",
     "static/media/Planner.jpg": "/reactportfolio/static/media/Planner.ba6c08ee.jpg",
     "static/media/Pw.jpg": "/reactportfolio/static/media/Pw.5f0deff1.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.c66c6b87.js",
     "static/css/2.b0a38356.chunk.css",
-    "static/js/2.d4647551.chunk.js",
-    "static/css/main.967c0e82.chunk.css",
-    "static/js/main.38927746.chunk.js"
+    "static/js/2.026a9de1.chunk.js",
+    "static/css/main.0fb6e35e.chunk.css",
+    "static/js/main.3ff87861.chunk.js"
   ]
 }
