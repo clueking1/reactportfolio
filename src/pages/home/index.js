@@ -7,6 +7,7 @@ import './style.css'
 
 function Home() {
     const [uni, setUni] = useState(true)
+    const [uni2, setUni2] = useState(false)
     const [about, setAbout] = useState(false)
     const [proj, setProj] = useState(false)
     const [cardOne, setCardOne] = useState(true)
@@ -32,13 +33,18 @@ function Home() {
 
     function aboutDiv() {
         setAbout(!about)
-        setUni(!uni)
+        setUni(!uni2)
+        card3()
     }
 
     function projDiv() {
        setProj(!proj)
        setUni(!uni)
-       
+       card1()
+    }
+
+    function contactDiv() {
+        card2()
     }
 
     return(
@@ -53,10 +59,10 @@ function Home() {
                 {proj ? <Projects /> : undefined}
             </div>
             {uni ? <div className="emptyWrapper"></div> : undefined}
-            
+            {uni2 ? <div className="emptyWrapper"></div> : undefined}
             
             <div className="allCards">
-                <Cards uni={uni} aboutDiv={aboutDiv} projDiv={projDiv} card1 = {card1} card2 = {card2} card3 = {card3}cardOne = {cardOne} cardTwo = {cardTwo} cardThree = {cardThree} />
+                <Cards uni={uni} contactDiv={contactDiv} aboutDiv={aboutDiv} projDiv={projDiv} card1 = {card1} card2 = {card2} card3 = {card3}cardOne = {cardOne} cardTwo = {cardTwo} cardThree = {cardThree} />
             </div>
         </div>
     )
