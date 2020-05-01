@@ -13,6 +13,7 @@
 @media only screen and (max-width: 499px) {
     .aboutPara {
         width: 300px;
+        font-size: .9em;
     }
   }
 

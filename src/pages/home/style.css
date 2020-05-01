@@ -30,3 +30,10 @@ html, body {
     top: 0;
     height: 400px
 }
+
+@media only screen and (max-width: 499px) {
+    .aboutWrapper {
+   
+        height: 350px
+    }
+  }
