@@ -1,5 +1,5 @@
 .card img {
-    height: 250px;
+    height: 220px;
     width: 278px;
     border-radius:19% ;
 }
@@ -14,4 +14,28 @@
     text-align: center;
     margin: 0 auto;
     height: 400px;
+}
+
+.tags {
+    margin-top: 15px;
+}
+
+.aTag {
+
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 50%;
+
+
+}
+.tags a {
+    color: black;
+}
+
+.git {
+    margin-left: 20px;
+  
+    
+
 }
