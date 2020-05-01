@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/ereactportgolio/static/css/main.16e08c4e.chunk.css",
-    "main.js": "/ereactportgolio/static/js/main.eb94bcf4.chunk.js",
-    "main.js.map": "/ereactportgolio/static/js/main.eb94bcf4.chunk.js.map",
+    "main.js": "/ereactportgolio/static/js/main.38927746.chunk.js",
+    "main.js.map": "/ereactportgolio/static/js/main.38927746.chunk.js.map",
     "runtime-main.js": "/ereactportgolio/static/js/runtime-main.34bf7971.js",
     "runtime-main.js.map": "/ereactportgolio/static/js/runtime-main.34bf7971.js.map",
     "static/css/2.b0a38356.chunk.css": "/ereactportgolio/static/css/2.b0a38356.chunk.css",
-    "static/js/2.d6bc4aa9.chunk.js": "/ereactportgolio/static/js/2.d6bc4aa9.chunk.js",
-    "static/js/2.d6bc4aa9.chunk.js.map": "/ereactportgolio/static/js/2.d6bc4aa9.chunk.js.map",
+    "static/js/2.d4647551.chunk.js": "/ereactportgolio/static/js/2.d4647551.chunk.js",
+    "static/js/2.d4647551.chunk.js.map": "/ereactportgolio/static/js/2.d4647551.chunk.js.map",
     "index.html": "/ereactportgolio/index.html",
-    "precache-manifest.d1b0f4a61993d0e76514359cd03bb0be.js": "/ereactportgolio/precache-manifest.d1b0f4a61993d0e76514359cd03bb0be.js",
+    "precache-manifest.4dfce3a53b35100ecafd7b0efa1bbaa5.js": "/ereactportgolio/precache-manifest.4dfce3a53b35100ecafd7b0efa1bbaa5.js",
     "service-worker.js": "/ereactportgolio/service-worker.js",
     "static/css/2.b0a38356.chunk.css.map": "/ereactportgolio/static/css/2.b0a38356.chunk.css.map",
     "static/css/main.16e08c4e.chunk.css.map": "/ereactportgolio/static/css/main.16e08c4e.chunk.css.map",
-    "static/js/2.d6bc4aa9.chunk.js.LICENSE.txt": "/ereactportgolio/static/js/2.d6bc4aa9.chunk.js.LICENSE.txt",
+    "static/js/2.d4647551.chunk.js.LICENSE.txt": "/ereactportgolio/static/js/2.d4647551.chunk.js.LICENSE.txt",
     "static/media/Penny.jpg": "/ereactportgolio/static/media/Penny.dbee313f.jpg",
     "static/media/Planner.jpg": "/ereactportgolio/static/media/Planner.ba6c08ee.jpg",
     "static/media/Pw.jpg": "/ereactportgolio/static/media/Pw.5f0deff1.jpg",
     "static/media/Quiz.jpg": "/ereactportgolio/static/media/Quiz.35abe57a.jpg",
     "static/media/WeatherDash.jpg": "/ereactportgolio/static/media/WeatherDash.b124a428.jpg",
+    "static/media/WillCoanRes.pdf": "/ereactportgolio/static/media/WillCoanRes.24afa52b.pdf",
     "static/media/Zodiac.jpg": "/ereactportgolio/static/media/Zodiac.5c1e63a1.jpg",
     "static/media/style.css": "/ereactportgolio/static/media/home4.e5b52ee5.png",
     "static/media/smile.jpeg": "/ereactportgolio/static/media/smile.af3233c0.jpeg"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.34bf7971.js",
     "static/css/2.b0a38356.chunk.css",
-    "static/js/2.d6bc4aa9.chunk.js",
+    "static/js/2.d4647551.chunk.js",
     "static/css/main.16e08c4e.chunk.css",
-    "static/js/main.eb94bcf4.chunk.js"
+    "static/js/main.38927746.chunk.js"
   ]
 }

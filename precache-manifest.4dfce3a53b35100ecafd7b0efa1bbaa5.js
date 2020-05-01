@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5240b6a19ce97ae9af32064d696ce769",
+    "revision": "eefb99da9e7bd57cf3cb58cb2140c7a8",
     "url": "/ereactportgolio/index.html"
   },
   {
-    "revision": "5370b8a2cc515fec6767",
+    "revision": "e8f15852105a5d0cfa60",
     "url": "/ereactportgolio/static/css/2.b0a38356.chunk.css"
   },
   {
-    "revision": "9aef51cdd93f08b4215b",
+    "revision": "77ecdf8cb7f38388630b",
     "url": "/ereactportgolio/static/css/main.16e08c4e.chunk.css"
   },
   {
-    "revision": "5370b8a2cc515fec6767",
-    "url": "/ereactportgolio/static/js/2.d6bc4aa9.chunk.js"
+    "revision": "e8f15852105a5d0cfa60",
+    "url": "/ereactportgolio/static/js/2.d4647551.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/ereactportgolio/static/js/2.d6bc4aa9.chunk.js.LICENSE.txt"
+    "url": "/ereactportgolio/static/js/2.d4647551.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9aef51cdd93f08b4215b",
-    "url": "/ereactportgolio/static/js/main.eb94bcf4.chunk.js"
+    "revision": "77ecdf8cb7f38388630b",
+    "url": "/ereactportgolio/static/js/main.38927746.chunk.js"
   },
   {
     "revision": "ae420fd13114dd87f9b9",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b124a4286d42a25e49259f800c2df8ac",
     "url": "/ereactportgolio/static/media/WeatherDash.b124a428.jpg"
+  },
+  {
+    "revision": "24afa52b646d6010ecfae59bd37c4b28",
+    "url": "/ereactportgolio/static/media/WillCoanRes.24afa52b.pdf"
   },
   {
     "revision": "5c1e63a15f44cbe50f0b10675a3bdc4d",
