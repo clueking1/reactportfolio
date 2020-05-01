@@ -4,8 +4,8 @@
     border-radius:19% ;
 }
 
-.card {
-
+.cardio {
+    width: 280px;
     height: 380px;
 }
 
@@ -39,3 +39,16 @@
     
 
 }
+
+@media only screen and (max-width: 499px) {
+    .card img {
+        height: 200px;
+        width: 278px;
+        border-radius:19% ;
+    }
+    .cardio {
+        width: 280px;
+        height: 350px;
+        font-size: .9em;
+    }
+  }

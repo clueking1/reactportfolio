@@ -8,7 +8,7 @@ import './style.css'
 function ContactCard(){
   return (
     <CardGroup>
-      <Card>
+      <Card className='cardio'>
         <CardImg src={require('./smile.jpeg')} alt="Card image cap" />
         <CardBody>
         <CardSubtitle>Will Coan</CardSubtitle>

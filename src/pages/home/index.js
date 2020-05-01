@@ -62,9 +62,9 @@ function Home() {
             <div className="projectWrapper">
                 {proj ? <Projects /> : undefined}
             </div>
-            <div className="contactWrapper">
-                {con ? <ContactCard /> : undefined}
-            </div>
+            {con ? <div className="contactWrapper">
+                 <ContactCard /> 
+            </div> : undefined}
             {uni ? <div className="emptyWrapper"></div> : undefined}
             {uni2 ? <div className="emptyWrapper"></div> : undefined}
             

@@ -18,6 +18,11 @@ html, body {
     height: 400px
 }
 
+.contactWrapper {
+   
+    height: 400px
+}
+
 .projectWrapper {
 
     top: 0;
@@ -36,4 +41,24 @@ html, body {
    
         height: 350px
     }
+    .emptyWrapper {
+
+        top: 0;
+        height: 350px
+    }
+
+    .projectWrapper {
+
+        top: 0;
+        margin-top: -350px;
+        margin-bottom: 0;
+       
+    }
+
+    .contactWrapper {
+   
+        height: 350px
+    }
+    
+   
   }
